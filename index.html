@@ -10,28 +10,33 @@
 </head>
 <body>
     <div class="wrapper">
-        <header>
-            <div class="header-wrapper">
+        <header class="header-wrapper">
+            <div class="in-row">
                 <img src="images/Логотип.svg" alt="logo">
-                <div id="texts">
+                <div class="texts">
                     <div class="logo">Баскетболер</div>
                     <div>Магазин баскетбольных товаров</div>
                 </div>
-                <nav>
-                    <ul class="nav">
-                        <li><a href="">Мячи</a></li>
-                        <li><a id="selected" href="">Кроссовки</a></li>
-                        <li><a href="">Майки</a></li>
-                        <li><a id="selected2" href="">Шорты</a></li>
-                        <li><a id="menu" href="">
-                            <p class="ellipse"></p><p class="ellipse"></p><p class="ellipse"></p></a>
-                        </li>
-                    </ul>
-                </nav>
-                <span class="">8(908)45-32-7798</span>
-                <button type="button" class="call">Заказать звонок</button>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li><a href="">Мячи</a></li>
+                    <li><a class="selected" href="">Кроссовки</a></li>
+                    <li><a href="">Майки</a></li>
+                    <li><a id="selected2" href="">Шорты</a></li>
+                    <li><a class="menu" href="">
+                            <div class="ellipse"></div><div class="ellipse"></div><div class="ellipse"></div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <span class="">8(908)45-32-7798</span>
+            <button type="button" class="call">Заказать звонок</button>
+            <div class="in-row">
                 <img src="images/Cart.svg" alt="cart">
-                <div id="price">3 243 руб.</div>
+                <div id="price">
+                    3 243 руб.
+                </div>
                 <img src="images/Vector%201.svg" alt="arrow">
             </div>
         </header>
@@ -41,7 +46,7 @@
                 <div>Мы собрали настоящие вещи от лучших брендов, чтобы порадовать вас качетсвенным товаром</div>
                 <button class="preview" type="button">Смотреть каталог</button>
             </div>
-            <div>
+            <div class="relative">
                 <img src="images/Задний%20фон%20кросс.png" alt="background">
                 <img src="images/Кроссы.png" alt="crosses" class="crosses">
                 <div class="item_desc">
@@ -54,6 +59,98 @@
                     <div id="slide1"></div>
                     <div id="slide2"></div>
                     <div id="slide3"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section-2">
+            <div class="section-name">
+                <h2>Горячие поступления</h2>
+                <nav>
+                    <ul class="nav-2">
+                        <li><a class="selected" href="">Все</a></li>
+                        <li><a href="">Мячи</a></li>
+                        <li><a href="">Кроссовки</a></li>
+                        <li><a href="">Майки</a></li>
+                        <li><a href="">Шорты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="grid">
+                <div class="grid-item">
+                    <h3>Баскетбольный мяч</h3>
+                    <img src="images/Basketball.png" alt="Basketball">
+                    <p class="shop-item_desc">Яркая и нестандартная модель TT из коллекции мячей <span>Street line</span> для любительской игры,</p>
+                    <div class="old-price">1799  руб.</div>
+                    <div class="space-around prices">
+                        <div class="new-price">1290 руб.</div>
+                        <img class="pointer" src="images/Arrow.svg" alt="Next">
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h3>кроссовки Air Jordan</h3>
+                    <img src="images/Crosses%20Air%20Jordan.png" alt="Air Jordan">
+                    <p class="shop-item_desc">Кроссовки <span>Air Jordan 5 Retro 'Top 3'</span> Закругленный носок, плоская <br> резиновая подошва.</p>
+                    <div class="old-price">9799  руб.</div>
+                    <div class="space-around prices">
+                        <div class="new-price">8190 руб.</div>
+                        <img class="pointer" src="images/Arrow.svg" alt="Next">
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h3>Майка Jordan Sport</h3>
+                    <img src="images/T-shirt.png" alt="T-shirt">
+                    <p class="shop-item_desc">Футболка <span>Nike НБА Dri-FIT Miami Heat</span> выполнена в стиле джерси City, <br> в которых играет команда.</p>
+                    <div class="old-price">3099  руб.</div>
+                    <div class="space-around prices">
+                        <div class="new-price">2300 руб.</div>
+                        <img class="pointer" src="images/Arrow.svg" alt="Next">
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h3>Шорты баскетбольные</h3>
+                    <img src="images/Shorts.png" alt="Shorts">
+                    <p class="shop-item_desc">Шорты баскетбольные JBS-1120-014 свободного кроя для отличного <br> комфорта  во время игры.</p>
+                    <div class="old-price">1799  руб.</div>
+                    <div class="space-around prices">
+                        <div class="new-price">1299 руб.</div>
+                        <img class="pointer" src="images/Arrow.svg" alt="Next">
+                    </div>
+                </div>
+            </div>
+            <div class="navigation">
+                <div class="space-around">
+                    <a href=""><img src="images/Arrow_back.svg" alt="Back"></a>
+                    <a href=""><img src="images/Arrow_Forward.svg" alt="Forward"></a>
+                </div>
+            </div>
+            <div class="relative">
+                <div id="nav-rect-back"></div>
+                <div id="nav-rect"></div>
+            </div>
+        </section>
+        <section class="section-3">
+            <div class="in-row">
+                <div id="slide4">
+                    <img src="images/slide-1.png" alt="slide-1-background">
+                    <div id="slide4-desc">
+                        <a href="" class="plus-1">+</a>
+                        <div class="rectangle-2"></div>
+                        <div class="slide-desc-text">
+                            <h3>Поступление новых кроссовок</h3>
+                            <p><span>Air jordan</span> снова в моде!</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="slide5">
+                    <img src="images/slide-2.png" alt="slide-2-background">
+                    <div id="slide5-desc">
+                        <a href="" class="plus-2">+</a>
+                        <div class="rectangle-2"></div>
+                        <div class="slide-desc-text">
+                            <h3>Наконец-то <span>adidas</span> постарался</h3>
+                            <p><span>adidas</span> выпустила мяч для любого покрытия!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
