@@ -364,7 +364,7 @@ body{
 }
 
 #nav-rect-back{
-    position: absolute;
+    position: relative;
     width: 470px;
     height: 6px;
     background: #E2E4F2;
